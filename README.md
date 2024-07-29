@@ -13,4 +13,4 @@ Each project provides an opportunity to practice a skill in Python:
 | Blackjack        | Unicode characters | python3 blackjack.py
 
 
-To run each project, install python, clone the repository to a folder of your choosing. Navigate to the chosen folder in your terminal and type the command as above.
+To run each project, install Python, and clone the repository to a folder of your choosing. Navigate to the chosen folder in your terminal and type the command as above.
