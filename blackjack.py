@@ -82,6 +82,9 @@ def main():
         if dealerValue > 21:
             print(f'Dealer busts. You win £{bet}')
             money += bet
+        elif (playerValue > 21) or (playerValue < dealerValue):
+            print('You lost')
+            money -= bet
         elif playerValue > dealerValue:
             print (f'You win £{bet}')
             money += bet
@@ -150,7 +153,7 @@ def displayCards(cards):
     rows = ['','','','','']
 
     for i, card in enumerate(cards):
-        rows[0] += ' __ '
+        rows[0] += ' ___  '
         if card == BACKSIDE:
             rows[1] += '|## | '
             rows[2] += '|###| '
